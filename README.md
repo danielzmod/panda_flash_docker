@@ -1,5 +1,6 @@
 # panda_flash_docker
-Memory notes and modified dockerfile to get grey panda flashed
+Memory notes and modified dockerfile to get grey panda flashed.
+Performed from Ubuntu 22.04.
 
 # Prerequsites
  - Install docker
