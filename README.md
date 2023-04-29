@@ -13,7 +13,7 @@ Memory notes and modified dockerfile to get grey panda flashed
  - Build usb cable that can short VBus to shield. 
  - Short usb shield before plugging in cable to computer. Then plug in to computer and release short after a few seconds. 
  - Now the panda should be in dfu mode. (lsusb should show something like 0483:df11 STMicroelectronics STM32  BOOTLOADER appearing as something like this)
- - modify constants.py, BASEDIR need to changed to ``BASEDIR = os.path.abspath("/tmp/panda")``` inside of panda library. Otherwise the file to flash won't be      found.
+ - modify constants.py, BASEDIR needs to be changed to ```BASEDIR = os.path.abspath("/tmp/panda")``` inside of panda library. Otherwise the file to flash won't be      found.
  - cd into the folder board inside panda repository 
  - Run ```./recover.py```
  - Run ```./flash.py```
